@@ -1,0 +1,43 @@
+{
+  "name": "auto-download",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Auto Download NPM Tools",
+  "keywords": [
+    "npm-tools",
+    "node-tools",
+    "auto-download",
+    "npm-auto-download"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "init.js",
+    "inputNumber.js",
+    "selectOptions.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jundat95/auto-download.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Tinh Ngo",
+    "url": "https://jundat95.com"
+  },
+  "engines": {
+    "node": ">=9"
+  },
+  "bin": {
+    "auto-download": "index.js"
+  },
+  "dependencies": {
+    "figlet": "^1.2.0",
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
